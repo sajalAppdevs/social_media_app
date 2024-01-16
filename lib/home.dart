@@ -54,7 +54,7 @@ class PostTile extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const SizedBox(
-                width: 10,
+                width: 15,
               ),
               CircleAvatar(
                 child: ClipOval(
@@ -66,7 +66,12 @@ class PostTile extends StatelessWidget {
               const SizedBox(
                 width: 15,
               ),
-              const Text('Username'),
+              const Text(AppStrings.username),
+              const Spacer(),
+              const Icon(Icons.more_vert),
+              const SizedBox(
+                width: 20,
+              ),
             ],
           ),
           const SizedBox(
