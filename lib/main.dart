@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:social_media_app/home.dart';
+import 'package:social_media_app/features/home/home.dart';
 
 void main() {
   runApp(const MyApp());
